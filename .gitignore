@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+biometric_env/
+
+# Runtime logs
+bot_log.txt
+kiosk_log.txt
+setup_log.txt
+
+# Privacy: enrolled face photos and attendance records never leave the device
+known_faces/**
+!known_faces/README.md
+attendance/*.csv
+
+# Superseded/previous-project files kept locally
+legacy/
+
+# OS junk
+.DS_Store

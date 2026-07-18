@@ -1,0 +1,6 @@
+numpy
+opencv-python-headless
+mediapipe
+face_recognition
+pygame
+Pillow
